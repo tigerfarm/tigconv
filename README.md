@@ -1,10 +1,10 @@
-# Chat Web Application
+# Twilio Conversations Chat Web Application
 
 This application is ready to run.
 To deploy to Heroku, you will need an [Heroku account](https://heroku.com/) to host your application.
 Once you have an account, stay logged in for the deployment and configuration.
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/tigerfarm/tigchat)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/tigerfarm/tigconv)
 
 When you deploy to Heroku, you will be prompted for an app name. 
 The name needs to be unique. Example, enter your name+app (example: davidapp). 
