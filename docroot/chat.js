@@ -426,7 +426,7 @@ function addChatMessage(message) {
 }
 window.onload = function () {
     log.value = "+++ Start.";
-    chatMessages.value = "+++ Ready to Create Chat Client, then join a chat channel and chat.";
+    chatMessages.value = "+++ Ready to Create Conversations Client to join a channel and chat.";
     activateChatBox();
     setButtons("init");
 };

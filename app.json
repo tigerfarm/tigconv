@@ -1,7 +1,7 @@
 {
-  "name": "Sample Chat Web Server Application",
-  "description": "This application is a sample chat web application.",
-  "repository": "https://github.com/tigerfarm/tigchat",
+  "name": "Sample Conversations Chat Web Server Application",
+  "description": "This application is a sample Conversations chat web application.",
+  "repository": "https://github.com/tigerfarm/tigconv",
   "logo": "http://tigerfarmpress.com/images/topImgLeft.jpg",
   "keywords": ["node", "express", "heroku", "Twilio"],
     "env": {

@@ -41,10 +41,10 @@ function generateToken(theIdentity) {
     // Documentation: https://www.twilio.com/docs/api/rest/access-tokens
     //
     if (theIdentity === "") {
-        console.log("- Required: user identity for creating a chat token.");
+        console.log("- Required: user identity for creating a Conversations token.");
         return "";
     }
-    sayMessage("+ Generate token, chat user ID: " + theIdentity);
+    sayMessage("+ Generate token, Conversations user ID: " + theIdentity);
     const AccessToken = require('twilio').jwt.AccessToken;
     // Create a Chat token: https://www.twilio.com/docs/chat/create-tokens
     const token = new AccessToken(
@@ -80,7 +80,7 @@ var app = express();
 
 // -----------------------------------------------------------------------------
 app.get('/generateToken', function (req, res) {
-    sayMessage("+ Generate Chat Token.");
+    sayMessage("+ Generate Conversations Token.");
     if (req.query.identity) {
         res.send(generateToken(req.query.identity));
     } else {
